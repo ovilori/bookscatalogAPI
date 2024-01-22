@@ -15,7 +15,7 @@ app.config["DEBUG"] == True
 
 #homepage - function containing the result that will be displayed in the browser.
 def home():
-    return "<h1>This site is a prototype API for distant reading of science fiction novels.</p>"
+    return "<h1>Distant Reading Archive</h1><p>This site is a prototype API for distant reading of science fiction novels.</p>"
 
 #this method runs the application server.
 app.run()
